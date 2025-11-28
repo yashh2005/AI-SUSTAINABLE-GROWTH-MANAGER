@@ -1,0 +1,50 @@
+[
+  {
+    "session_id": "printing_shop_01",
+    "profile": {
+      "business_name": "Yash Blocks",
+      "vertical": "hand-block printed textiles",
+      "products": ["hand-printed scarves", "cushion covers", "table runners"],
+      "price_range": "$10-$50",
+      "monthly_budget_usd": 300,
+      "sustainability_priority": "high",
+      "materials": ["cotton", "natural dyes"],
+      "packaging_weight_g": 80,
+      "water_usage_l_per_unit": 6,
+      "energy_source": "grid",
+      "notes": "Small home-based printing unit, looking to expand online"
+    }
+  },
+  {
+    "session_id": "cafe_02",
+    "profile": {
+      "business_name": "Green Bean Cafe",
+      "vertical": "local cafe",
+      "products": ["coffee", "sandwiches", "pastries"],
+      "price_range": "$3-$12",
+      "monthly_budget_usd": 1000,
+      "sustainability_priority": "medium",
+      "materials": ["paper cups", "plastic utensils"],
+      "packaging_weight_g": 120,
+      "water_usage_l_per_unit": 2,
+      "energy_source": "diesel",
+      "notes": "Interested in switching to compostable packaging"
+    }
+  },
+  {
+    "session_id": "boutique_03",
+    "profile": {
+      "business_name": "Loom & Leaf Boutique",
+      "vertical": "handmade apparel",
+      "products": ["dresses", "tops"],
+      "price_range": "$25-$120",
+      "monthly_budget_usd": 500,
+      "sustainability_priority": "low",
+      "materials": ["polyester", "cotton"],
+      "packaging_weight_g": 40,
+      "water_usage_l_per_unit": 3,
+      "energy_source": "grid",
+      "notes": "Exploring eco-friendly materials"
+    }
+  }
+]

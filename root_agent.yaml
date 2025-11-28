@@ -1,0 +1,24 @@
+# root_agent.yaml
+name: sustainable-business-copilot
+description: AI agent for sustainable business growth planning, including sustainability recommendations.
+
+type: llm
+instruction: |
+  You are an AI business growth copilot. You receive a business profile (name, industry, products)
+  and a question from the user. Your task is to produce a sustainable business growth plan,
+  including strategy, research insights, and sustainability recommendations.
+tools: []
+
+# Optional: system prompt for context engineering
+system_prompt: |
+  You are an expert business consultant who provides actionable strategies for growth while
+  considering sustainability and environmental impact.
+
+model: gemini
+temperature: 0.7
+max_output_tokens: 1000
+
+# Environment variables (Gemini API key)
+env:
+  GOOGLE_API_KEY: "${}"
+  GOOGLE_GENAI_USE_VERTEXAI: "FALSE"

@@ -1,0 +1,75 @@
+{
+  "planner": "AgentResponse(agent='PlannerAgent', success=True, data={'business_overview': 'Yash Blocks operates in the General sector.', 'strengths': ['Strong customer relationships', 'Increasing market demand', 'Digital growth potential'], 'weaknesses': ['Limited automation', 'Low sustainability integration', 'Lack of structured digital strategy'], 'initial_growth_plan': ['Clarify business positioning', 'Perform competitor analysis', 'Identify product/service expansion opportunities']})",
+  "research": "AgentResponse(agent='ResearchAgent', success=True, data={'industry_trends': ['AI adoption increasing in all sectors', 'Shift toward digital-first customer experience', 'Sustainability becoming mandatory for competitive advantage'], 'top_competitors': [{'name': 'Competitor A', 'strength': 'Automation'}, {'name': 'Competitor B', 'strength': 'Brand recognition'}, {'name': 'Competitor C', 'strength': 'Low pricing'}], 'growth_opportunities': ['Introduce eco-friendly products', 'Adopt AI-driven customer support', 'Expand through digital marketing funnels']})",
+  "strategy": "AgentResponse(agent='StrategyAgent', success=True, data={'positioning_strategy': 'Position the brand as a modern, efficient, and sustainability-driven business.', 'digital_strategy': ['Automate operations using AI tools', 'Improve customer touchpoints with chatbots', 'Use targeted digital ads and funnels'], 'market_strategy': ['Differentiate through sustainability', 'Introduce subscription or loyalty programs', 'Partner with eco-friendly suppliers'], 'timeline': {'30_days': ['Website refresh', 'Competitor analysis', 'Customer survey'], '60_days': ['Introduce AI automation', 'Launch marketing funnels'], '90_days': ['Sustainability certification', 'Expand market reach']}})",
+  "sustainability": "AgentResponse(agent='SustainabilityAgent', success=True, data={'carbon_reduction_actions': ['Switch to renewable electricity sources', 'Optimize supply chain for fewer emissions', 'Reduce packaging waste'], 'resource_efficiency_measures': ['Use energy-efficient equipment', 'Implement water-saving processes', 'Digitize documents to reduce paper'], 'sustainable_brand_opportunities': ['Eco-certifications', 'Green product lines', 'Cause-based marketing partnerships'], 'long_term_impact_score_estimate': 'High'})",
+  "reviewer": "AgentResponse(agent='ReviewerAgent', success=True, data={'strategy': {'positioning_strategy': 'Position the brand as a modern, efficient, and sustainability-driven business.', 'digital_strategy': ['Automate operations using AI tools', 'Improve customer touchpoints with chatbots', 'Use targeted digital ads and funnels'], 'market_strategy': ['Differentiate through sustainability', 'Introduce subscription or loyalty programs', 'Partner with eco-friendly suppliers'], 'timeline': {'30_days': ['Website refresh', 'Competitor analysis', 'Customer survey'], '60_days': ['Introduce AI automation', 'Launch marketing funnels'], '90_days': ['Sustainability certification', 'Expand market reach']}}, 'sustainability': {'carbon_reduction_actions': ['Switch to renewable electricity sources', 'Optimize supply chain for fewer emissions', 'Reduce packaging waste'], 'resource_efficiency_measures': ['Use energy-efficient equipment', 'Implement water-saving processes', 'Digitize documents to reduce paper'], 'sustainable_brand_opportunities': ['Eco-certifications', 'Green product lines', 'Cause-based marketing partnerships'], 'long_term_impact_score_estimate': 'High'}, 'review': {'overall_quality': 'Excellent', 'strengths': ['Strong alignment between market trends and strategy', 'Clear sustainability roadmap', 'Actionable 30-60-90 day plan'], 'risks': ['Requires budget for automation', 'Sustainability initiatives may require supplier changes'], 'final_recommendations': ['Begin with low-cost automation tools', 'Communicate sustainability progress to customers', 'Monitor key metrics monthly']}})",
+  "session": {
+    "history": [
+      {
+        "onboard": {
+          "business_name": "Yash Blocks",
+          "vertical": "hand-block printed textiles",
+          "products": [
+            "hand-printed scarves",
+            "cushion covers",
+            "table runners"
+          ],
+          "price_range": "$10-$50",
+          "monthly_budget_usd": 300,
+          "sustainability_priority": "high",
+          "materials": [
+            "cotton",
+            "natural dyes"
+          ],
+          "packaging_weight_g": 80,
+          "water_usage_l_per_unit": 6,
+          "energy_source": "grid",
+          "notes": "Small home-based printing unit, looking to expand online"
+        }
+      },
+      {
+        "planner_output": "AgentResponse(agent='PlannerAgent', success=True, data={'business_overview': 'Yash Blocks operates in the General sector.', 'strengths': ['Strong customer relationships', 'Increasing market demand', 'Digital growth potential'], 'weaknesses': ['Limited automation', 'Low sustainability integration', 'Lack of structured digital strategy'], 'initial_growth_plan': ['Clarify business positioning', 'Perform competitor analysis', 'Identify product/service expansion opportunities']})"
+      },
+      {
+        "research_output": "AgentResponse(agent='ResearchAgent', success=True, data={'industry_trends': ['AI adoption increasing in all sectors', 'Shift toward digital-first customer experience', 'Sustainability becoming mandatory for competitive advantage'], 'top_competitors': [{'name': 'Competitor A', 'strength': 'Automation'}, {'name': 'Competitor B', 'strength': 'Brand recognition'}, {'name': 'Competitor C', 'strength': 'Low pricing'}], 'growth_opportunities': ['Introduce eco-friendly products', 'Adopt AI-driven customer support', 'Expand through digital marketing funnels']})"
+      },
+      {
+        "strategy_output": "AgentResponse(agent='StrategyAgent', success=True, data={'positioning_strategy': 'Position the brand as a modern, efficient, and sustainability-driven business.', 'digital_strategy': ['Automate operations using AI tools', 'Improve customer touchpoints with chatbots', 'Use targeted digital ads and funnels'], 'market_strategy': ['Differentiate through sustainability', 'Introduce subscription or loyalty programs', 'Partner with eco-friendly suppliers'], 'timeline': {'30_days': ['Website refresh', 'Competitor analysis', 'Customer survey'], '60_days': ['Introduce AI automation', 'Launch marketing funnels'], '90_days': ['Sustainability certification', 'Expand market reach']}})"
+      },
+      {
+        "sustainability_output": "AgentResponse(agent='SustainabilityAgent', success=True, data={'carbon_reduction_actions': ['Switch to renewable electricity sources', 'Optimize supply chain for fewer emissions', 'Reduce packaging waste'], 'resource_efficiency_measures': ['Use energy-efficient equipment', 'Implement water-saving processes', 'Digitize documents to reduce paper'], 'sustainable_brand_opportunities': ['Eco-certifications', 'Green product lines', 'Cause-based marketing partnerships'], 'long_term_impact_score_estimate': 'High'})"
+      },
+      {
+        "reviewer_output": "AgentResponse(agent='ReviewerAgent', success=True, data={'strategy': {'positioning_strategy': 'Position the brand as a modern, efficient, and sustainability-driven business.', 'digital_strategy': ['Automate operations using AI tools', 'Improve customer touchpoints with chatbots', 'Use targeted digital ads and funnels'], 'market_strategy': ['Differentiate through sustainability', 'Introduce subscription or loyalty programs', 'Partner with eco-friendly suppliers'], 'timeline': {'30_days': ['Website refresh', 'Competitor analysis', 'Customer survey'], '60_days': ['Introduce AI automation', 'Launch marketing funnels'], '90_days': ['Sustainability certification', 'Expand market reach']}}, 'sustainability': {'carbon_reduction_actions': ['Switch to renewable electricity sources', 'Optimize supply chain for fewer emissions', 'Reduce packaging waste'], 'resource_efficiency_measures': ['Use energy-efficient equipment', 'Implement water-saving processes', 'Digitize documents to reduce paper'], 'sustainable_brand_opportunities': ['Eco-certifications', 'Green product lines', 'Cause-based marketing partnerships'], 'long_term_impact_score_estimate': 'High'}, 'review': {'overall_quality': 'Excellent', 'strengths': ['Strong alignment between market trends and strategy', 'Clear sustainability roadmap', 'Actionable 30-60-90 day plan'], 'risks': ['Requires budget for automation', 'Sustainability initiatives may require supplier changes'], 'final_recommendations': ['Begin with low-cost automation tools', 'Communicate sustainability progress to customers', 'Monitor key metrics monthly']}})"
+      }
+    ],
+    "state": {
+      "business_profile": {
+        "business_name": "Yash Blocks",
+        "vertical": "hand-block printed textiles",
+        "products": [
+          "hand-printed scarves",
+          "cushion covers",
+          "table runners"
+        ],
+        "price_range": "$10-$50",
+        "monthly_budget_usd": 300,
+        "sustainability_priority": "high",
+        "materials": [
+          "cotton",
+          "natural dyes"
+        ],
+        "packaging_weight_g": 80,
+        "water_usage_l_per_unit": 6,
+        "energy_source": "grid",
+        "notes": "Small home-based printing unit, looking to expand online"
+      },
+      "last_planner_output": "AgentResponse(agent='PlannerAgent', success=True, data={'business_overview': 'Yash Blocks operates in the General sector.', 'strengths': ['Strong customer relationships', 'Increasing market demand', 'Digital growth potential'], 'weaknesses': ['Limited automation', 'Low sustainability integration', 'Lack of structured digital strategy'], 'initial_growth_plan': ['Clarify business positioning', 'Perform competitor analysis', 'Identify product/service expansion opportunities']})",
+      "last_research_output": "AgentResponse(agent='ResearchAgent', success=True, data={'industry_trends': ['AI adoption increasing in all sectors', 'Shift toward digital-first customer experience', 'Sustainability becoming mandatory for competitive advantage'], 'top_competitors': [{'name': 'Competitor A', 'strength': 'Automation'}, {'name': 'Competitor B', 'strength': 'Brand recognition'}, {'name': 'Competitor C', 'strength': 'Low pricing'}], 'growth_opportunities': ['Introduce eco-friendly products', 'Adopt AI-driven customer support', 'Expand through digital marketing funnels']})",
+      "last_strategy_output": "AgentResponse(agent='StrategyAgent', success=True, data={'positioning_strategy': 'Position the brand as a modern, efficient, and sustainability-driven business.', 'digital_strategy': ['Automate operations using AI tools', 'Improve customer touchpoints with chatbots', 'Use targeted digital ads and funnels'], 'market_strategy': ['Differentiate through sustainability', 'Introduce subscription or loyalty programs', 'Partner with eco-friendly suppliers'], 'timeline': {'30_days': ['Website refresh', 'Competitor analysis', 'Customer survey'], '60_days': ['Introduce AI automation', 'Launch marketing funnels'], '90_days': ['Sustainability certification', 'Expand market reach']}})",
+      "last_sustainability_output": "AgentResponse(agent='SustainabilityAgent', success=True, data={'carbon_reduction_actions': ['Switch to renewable electricity sources', 'Optimize supply chain for fewer emissions', 'Reduce packaging waste'], 'resource_efficiency_measures': ['Use energy-efficient equipment', 'Implement water-saving processes', 'Digitize documents to reduce paper'], 'sustainable_brand_opportunities': ['Eco-certifications', 'Green product lines', 'Cause-based marketing partnerships'], 'long_term_impact_score_estimate': 'High'})",
+      "last_reviewer_output": "AgentResponse(agent='ReviewerAgent', success=True, data={'strategy': {'positioning_strategy': 'Position the brand as a modern, efficient, and sustainability-driven business.', 'digital_strategy': ['Automate operations using AI tools', 'Improve customer touchpoints with chatbots', 'Use targeted digital ads and funnels'], 'market_strategy': ['Differentiate through sustainability', 'Introduce subscription or loyalty programs', 'Partner with eco-friendly suppliers'], 'timeline': {'30_days': ['Website refresh', 'Competitor analysis', 'Customer survey'], '60_days': ['Introduce AI automation', 'Launch marketing funnels'], '90_days': ['Sustainability certification', 'Expand market reach']}}, 'sustainability': {'carbon_reduction_actions': ['Switch to renewable electricity sources', 'Optimize supply chain for fewer emissions', 'Reduce packaging waste'], 'resource_efficiency_measures': ['Use energy-efficient equipment', 'Implement water-saving processes', 'Digitize documents to reduce paper'], 'sustainable_brand_opportunities': ['Eco-certifications', 'Green product lines', 'Cause-based marketing partnerships'], 'long_term_impact_score_estimate': 'High'}, 'review': {'overall_quality': 'Excellent', 'strengths': ['Strong alignment between market trends and strategy', 'Clear sustainability roadmap', 'Actionable 30-60-90 day plan'], 'risks': ['Requires budget for automation', 'Sustainability initiatives may require supplier changes'], 'final_recommendations': ['Begin with low-cost automation tools', 'Communicate sustainability progress to customers', 'Monitor key metrics monthly']}})"
+    }
+  }
+}
